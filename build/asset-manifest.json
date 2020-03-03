@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77bfa0b8.chunk.css",
+    "main.js": "/static/js/main.28bd7dee.chunk.js",
+    "main.js.map": "/static/js/main.28bd7dee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8f3f3ca0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8f3f3ca0.js.map",
+    "static/js/2.7148f183.chunk.js": "/static/js/2.7148f183.chunk.js",
+    "static/js/2.7148f183.chunk.js.map": "/static/js/2.7148f183.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ef7a769c0b40bf1bbcba0c75f99f8f78.js": "/precache-manifest.ef7a769c0b40bf1bbcba0c75f99f8f78.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.77bfa0b8.chunk.css.map": "/static/css/main.77bfa0b8.chunk.css.map",
+    "static/js/2.7148f183.chunk.js.LICENSE": "/static/js/2.7148f183.chunk.js.LICENSE",
+    "static/media/1.png": "/static/media/1.d829574e.png",
+    "static/media/2.png": "/static/media/2.d7629620.png",
+    "static/media/3.png": "/static/media/3.fdddb1e6.png",
+    "static/media/4.png": "/static/media/4.1d5be57e.png",
+    "static/media/5.png": "/static/media/5.80319ea5.png",
+    "static/media/Logo_SIH.png": "/static/media/Logo_SIH.0d98cf3b.png",
+    "static/media/a.png": "/static/media/a.0b5b39f8.png",
+    "static/media/b.png": "/static/media/b.7d994fbd.png",
+    "static/media/c.png": "/static/media/c.c4f86823.png",
+    "static/media/d.png": "/static/media/d.a87eda72.png",
+    "static/media/e.png": "/static/media/e.8aed3e20.png",
+    "static/media/no-profile-picture.jpg": "/static/media/no-profile-picture.91892f11.jpg",
+    "static/media/HeroSection.css": "/static/media/ri.4394f8bc.jpg",
+    "static/media/s1.jpg": "/static/media/s1.d62a0eda.jpg",
+    "static/media/s2.jpg": "/static/media/s2.c861d420.jpg",
+    "static/media/s3.jpg": "/static/media/s3.10ec83f1.jpg",
+    "static/media/s4.jpg": "/static/media/s4.d754aa2e.jpg",
+    "static/media/s5.jpg": "/static/media/s5.3a8aef42.jpg",
+    "static/media/s6.jpg": "/static/media/s6.adaa390d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f3f3ca0.js",
+    "static/js/2.7148f183.chunk.js",
+    "static/css/main.77bfa0b8.chunk.css",
+    "static/js/main.28bd7dee.chunk.js"
+  ]
+}
