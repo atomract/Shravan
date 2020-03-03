@@ -1,0 +1,79 @@
+table
+{
+  margin-left: 80px;
+  width: 65%;
+}
+td
+{
+  color: white;
+  font-size: 20px;
+  font-family:'montserrat',sans-serif;
+}
+
+input[type=text], input[type=number]{
+  background-color:transparent;
+  width: 100%;
+  padding:8px;
+
+border: 2px solid gray;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 16px;
+  letter-spacing: 1px;
+color:white;
+
+}
+input[type=button]{
+  background-color:#EB3D34;
+  padding: 10px 17px;
+  border-radius: 0px;
+  border-color:transparent;
+  float: left;
+  margin-left: 10px;
+  font-size: 17px;
+  color:white;
+  
+  }
+
+input[type=file]{
+  width: 100%;
+  }
+
+label
+{
+  color:white;
+	font-size:21px;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color:#EB3D34;
+  padding: 13px 37px;
+  border-radius: 0px;
+  border-color:transparent;
+  float: left;
+  margin-top: 20px;
+  margin-bottom:40px;
+  font-size:20px;
+  color:white;
+}
+
+input[type=submit]:hover,input[type=button]:hover {
+  background-color: transparent;
+  border-color:#EB3D34;
+  color:#EB3D34;
+
+}
+body
+{
+  background-image:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(td.jpg);
+  background-size:cover;
+
+}
+h1
+{
+  color:white;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}

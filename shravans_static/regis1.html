@@ -1,0 +1,71 @@
+<html>
+<head>
+<link rel="stylesheet" href="regis1.css">
+</head>
+<body>
+<table>
+<form name="myform" onsubmit=" validateEmail();" method="post">
+	
+<tr><td colspan="5"><h1>Personal Details</h1></td>></tr>
+<tr>
+    <td colspan="1"> <label> Name </label></td>
+	<td colspan="4"><input type="text" id="fname"></td>
+</tr>
+<tr>
+	<td colspan="1"><label> Age </label></td>
+    <td colspan="4"><input type="number" id="fage"></td>
+</tr>
+<tr>
+	<td colspan="1"><label> Sex </label></td>
+    <td colspan="1"><input type="radio" name="gender" value="male" checked> Male</td>
+    <td colspan="2"><input type="radio" name="gender" value="female"> Female</td>
+</tr>
+
+<tr>
+	<td colspan="1"><label>Address </label></td>
+    <td colspan="4"><input type="text"></td>
+</tr>
+<tr>
+	<td colspan="1"><label>State</label></td>
+    <td colspan="4"><input type="text" ></td>
+</tr>
+<tr>
+	<td colspan="1"><label> Photograph</label></td>
+    <td colspan="4"><input type="file" id="fphoto"></td>
+</tr>
+<tr>
+	<td colspan="1"><label>Id proof</label></td>
+    <td colspan="1"><input type="radio" name="idp" value="adhaar" checked> Adhaar Card</td>
+    <td colspan="1"><input type="radio" name="idp" value="pan"> Pan Card</td>
+    <td colspan="1"><input type="radio" name="idp" value="dl"> Driving License</td>
+    <td colspan="1"><input type="radio" name="idp" value="passport">Passport</td>
+</tr>
+<tr>
+	<td colspan="1"><label>Id No.</label></td>
+    <td colspan="4"><input type="file"></td>
+<tr><td colspan="5"><h1>Contact Details </h1></td></tr>
+</tr>
+<tr>
+	<td colspan="1"><label>Phone No.</label></td>
+    <td colspan="3"><input type="number" placeholder="Enter the 10 digit mobile"></td>
+    	<td colspan="1"><input type="button"  value="Request OTP" onClick="sendOTP();"></td>
+</tr>
+<tr>
+	<td colspan="1"><label>Emergency Contact </label></td>
+    <td colspan="4"><input type="number"></td> 
+</tr>
+<tr>
+	<td colspan="1"><label>Enter OTP </label></td>
+    <td colspan="4"><input type="number"></td>
+<tr><td colspan="5"><h1>Family Details </h1></td></tr>
+<tr>
+	<td colspan="1"><label>No. of person</label></td>
+    <td colspan="4"><input type="number"></td>
+</tr>
+<tr>
+	<td colspan="5"><input type="Submit" value="Submit"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>

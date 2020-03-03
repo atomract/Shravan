@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body
+
+		{
+			background-color:#cccccc;
+		}
+
+     .menu
+{   
+    margin-top:0px;
+	padding-top:0px;
+	height:100px;
+	width:100%;
+	background-color:black;
+
+}
+
+.leftmenu
+{   
+	line-height:100px;
+	width:25%;
+	float:left;
+}
+.leftmenu img
+{
+	height: 90px;
+	width: 90px;
+	margin-left:100px;
+}
+	
+.rightmenu
+{    
+	width:75%;
+	height:80px;
+	float:right;
+}
+
+.rightmenu ul li
+{	
+    font-family:'montserrat',sans-serif;
+	display:inline-block;
+	list-style:none;
+	font-size:16px;
+	color:white;
+	letter-spacing:2px;
+	line-height:130px;
+	margin-left:46px;
+}
+
+.rightmenu ul
+{
+    margin-left:500px;	
+}
+
+#first
+{
+	text-decoration:underline;
+}
+
+.rightmenu ul li:active
+{
+	text-decoration:underline;
+}
+#slider img
+{
+	height: 450px;
+}
+#container
+{
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 0px;
+    background-color: black;
+
+}
+#slider
+{
+	overflow: hidden;
+}
+#slider figure
+{
+	position: relative;
+	width:500%;
+	margin:0;
+	left: 0;
+	animation: 20s slidy infinite; 
+}
+#slider figure img
+{
+	width: 20%;
+	float: left; 
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+
+}	
+h3
+{
+font-size: 30px;
+margin-bottom: -42px;
+letter-spacing: 6px;
+word-spacing: 10px;
+
+}
+#re
+{
+	height: 1500px;
+	width: 100%;
+	background-color:#cccccc;
+}
+#ne
+{
+	height: 285px;
+	width:80%;
+	margin-top: 100px;
+	margin-left: 140px;
+	background-color:white;
+}
+#ne img
+{
+   height: 280px;
+   width: 380px;
+   float: left;
+   border: 2px solid #cccccc;
+}
+#ne p
+{
+	height: 280px;
+	float: left;
+	width: 600px;
+	font-size: 20px;
+	margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+#s
+{
+	font-size: 35px;
+
+}
+#button
+{
+    background-color:#EB3D34;
+    border-color:transparent;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:1px;
+    height:45px;
+    margin-top:20px;
+    padding:10px 30px 13px 30px;
+}
+#button:hover
+{
+	background-color:transparent;
+	border-color:#EB3D34;
+    color:#f44336;
+}
+    </style>
+
+	</head>
+	<body>
+        <div class=menu>
+        <div class="leftmenu">
+         <img src="s1.png">
+           </div>
+	      <div class="rightmenu">
+	        <ul>
+	         <a href="main.html"><li>Home</li></a>
+	          <a href="shravan.html"><li>Shravan</li></a>
+	          <a href="care.html"><li id="first">Care Packages</li></a>
+	   </ul>
+    </div>
+  </div>
+  <h3>CHAR DHAM YATRA BY SHRAVAN</h3>
+     <div id="container">
+     <div id="slider">
+     	<figure>
+     		<img src="kedarnath.jpg">
+     		<img src="badrinath.jpg">
+     		<img src="gangotri.jpg">
+     		<img src="yamunotri.jpg">
+     	</figure>
+     </div>
+</div>
+<div id="re">
+	<div id="ne">
+		<img src="kedarnath.jpg">
+		<p>	
+		<br><b id="s">Kedarnath</b>	<br><br>	
+        <b>Destination:</b>haridwar-Rudraprayag-Guptakashi-kedarnath<br><br>
+         Being one of the most popular and ancient pilgrimage in india geographical sphere, Kedarnath holds a lots of importance.
+         <br><button id="button">Book</button>
+		</p>
+		
+	</div>
+
+
+	<div id="ne">
+		<img src="badrinath.jpg">
+		<p>	
+		<br><b id="s">Badrinath</b>	<br><br>	
+        <b>Destination:</b>haridwar-Rudraprayag-Guptakashi-kedarnath<br><br>
+         Being one of the most popular and ancient pilgrimage in india geographical sphere, Kedarnath holds a lots of importance.
+         <br><button id="button">Book</button>
+		</p>
+		
+	</div>
+
+
+
+	<div id="ne">
+		<img src="gangotri.jpg">
+		<p>	
+		<br><b id="s">Gangotri</b>	<br><br>	
+        <b>Destination:</b>haridwar-Rudraprayag-Guptakashi-kedarnath<br><br>
+         Being one of the most popular and ancient pilgrimage in india geographical sphere, Kedarnath holds a lots of importance.
+         <br><button id="button">Book</button>
+		</p>
+		
+	</div>
+
+
+	<div id="ne">
+		<img src="yamunotri.jpg">
+	
+		<p>	
+		<br><b id="s">Yamunotri</b>	<br><br>	
+        <b>Destination:</b>haridwar-Rudraprayag-Guptakashi-kedarnath<br><br>
+         Being one of the most popular and ancient pilgrimage in india geographical sphere, Kedarnath holds a lots of importance.
+         <br><button id="button">Book</button>
+		</p>
+		
+	</div>
+
+
+
+
+</div>
+</body>
+</html>
