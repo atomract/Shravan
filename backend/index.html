@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form action="http://localhost:5000/api/product/addproduct" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" id="fileToUpload">
+            <input type="text" name="name" value="Mango">
+            <input type="text" name="description" value="The most delicious food is mango of pahad">
+            <input type="text" name="price" value="900.0">
+            <input type="text" name="available" value="true">
+            <input type="text" name="typeOfProduct" value="fruit">
+            <input type="Number" name="unit" value="100">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</html>
